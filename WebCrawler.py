@@ -46,4 +46,3 @@ if __name__ == '__main__':
 
     crawler = WebCrawler()
     crawler.crawl('https://www.utp.edu.co/')
-
