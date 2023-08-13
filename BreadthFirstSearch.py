@@ -34,12 +34,17 @@ if __name__ == '__main__':
     node2 = Node("B")
     node3 = Node("C")
     node4 = Node("D")
+    node5 = Node("E")
+    node6 = Node("F")
+    node7 = Node("G")
 
     # we have to handle the neighbors
     node1.adjacency_list.append(node2)
-    node2.adjacency_list.append(node3)
+    node1.adjacency_list.append(node3)
     node2.adjacency_list.append(node4)
-    node3.adjacency_list.append(node4)
+    node2.adjacency_list.append(node5)
+    node3.adjacency_list.append(node6)
+    node3.adjacency_list.append(node7)
 
     # run the BFS
     breadth_first_search(node1)
