@@ -1,9 +1,8 @@
 import random
 
-# Definir la función objetivo que se desea optimizar
+#
 def objective_function(x):
-    # Aquí debes definir la función que deseas optimizar.
-    # Deberás calcular el valor objetivo en función de la posición 'x'.
+
     return x ** 2  # Ejemplo de una función simple (x^2).
 
 # Parámetros del algoritmo
@@ -15,7 +14,7 @@ AP = 0.5  # Probabilidad de conciencia
 # Inicialización de la población de cuervos
 population = [random.uniform(-10, 10) for _ in range(N)]  # Inicializar posiciones aleatorias
 
-# Inicialización de los recuerdos de los cuervos
+# recuerdos de los cuervos
 memories = [None] * N
 
 # Bucle principal
@@ -33,7 +32,7 @@ while t < T:
             step = random.uniform(-fl, fl)
             new_position = population[j] + step
             
-            # Comprobar la viabilidad de la nueva posición (puedes agregar validaciones aquí)
+            # Comprobar la viabilidad de la nueva posición
             if -10 <= new_position <= 10:
                 population[i] = new_position
         else:
