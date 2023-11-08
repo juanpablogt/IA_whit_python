@@ -12,8 +12,7 @@ fl = 0.1  # Longitud de vuelo
 AP = 0.5  # Probabilidad de conciencia
 
 # Inicialización de la población de cuervos
-population = [random.uniform(-10, 10) for _ in range(N)]  # Inicializar posiciones aleatorias
-
+population = [random.uniform(-10, 10) for _ in range(N)]  
 # recuerdos de los cuervos
 memories = [None] * N
 
