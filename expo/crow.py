@@ -1,5 +1,5 @@
 import random
-# Parámetros del algoritmo
+
 def objective_function(x):
 
     return x ** 2  # Ejemplo de una función simple (x^2).
