@@ -4,7 +4,7 @@ def objective_function(x):
 
     return x ** 2  # Ejemplo de una función simple (x^2).
 
-# Parámetros del algoritmo
+# Parámetros
 N = 50  # Tamaño de la población (número de cuervos)
 T = 100  # Número máximo de iteraciones
 fl = 0.1  # Longitud de vuelo
