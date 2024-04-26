@@ -7,3 +7,8 @@ aliens = [alien0,alien1,alien2,alien3]
 
 for list in aliens:
     print(list)
+
+prompt = "Ingrese el nombre: "
+
+name = input(prompt)
+print("el nombre es: " + name)
