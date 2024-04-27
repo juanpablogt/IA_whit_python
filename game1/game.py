@@ -7,7 +7,7 @@ def run_game():
     screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption("Alien Invasion")
 
-    bge_color = (0,255,0)
+    bge_color = (0,0,0)
     # Start the main loop for the game.
     while True:
     # Watch for keyboard and mouse events.
