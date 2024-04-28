@@ -16,4 +16,5 @@ def run_game():
         screen.fill(ai_settings.bg_color)
         ship.blitme()
         pygame.display.flip()
+        
 run_game()
